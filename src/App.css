@@ -1,0 +1,588 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.spacer {
+  padding: 80px 0;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+/* ****************************Top-Menu************************ */
+.container {
+  width: 87%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-menu {
+  background-color: #003366;
+  color: white;
+  padding: 12px 0;
+  font-size: 15px;
+}
+
+.top-text {
+  margin-right: 7px;
+}
+
+.top-right {
+  margin-right: 7px;
+}
+
+.top-icon {
+  margin-left: 7px;
+  font-size: 18px;
+}
+
+.top-center {
+  margin-right: 10%;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* ****************************Main-Menu start************************ */
+
+.main-logo img {
+  width: 220px;
+}
+
+.main-menu {
+  padding: 10px 0;
+}
+
+.main-header ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-header ul li {
+  font-weight: 650;
+  margin-left: 33px;
+  position: relative;
+  font-size: 14px;
+  ;
+}
+
+.flexs {
+  display: flex;
+  align-items: center;
+}
+
+.main-icon {
+  font-size: 17px;
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.student {
+  margin-right: 15px;
+}
+
+/* ****************************Main-Menu end************************ */
+
+/* ****************************Main-Menu-Slider Start***************** */
+
+.Slider-img {
+  width: 100%;
+}
+
+/* ********************Main-Menu-Slider end******************** */
+
+
+
+/* *******************OFFERED COURSES Start********************** */
+.space-div {
+  padding-top: 50px;
+}
+
+.offered-s {
+  text-align: center;
+  position: relative;
+}
+
+.offered-courses {
+  height: 4px;
+  width: 30px;
+  background-color: #FFBC06;
+  position: absolute;
+  right: 57%;
+  top: 45%;
+}
+
+.offered h1 {
+  text-align: center;
+  color: #393636;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.offered-row {
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.offered-row h2 {
+  padding: 10px 8px;
+  font-size: 20px;
+  color: rgb(52, 47, 47);
+  border-left: 1px solid rgb(219, 207, 207);
+  border-right: 1px solid rgb(219, 207, 207);
+  /* border-top: 1px solid  rgb(219, 207, 207); */
+
+}
+
+.offered-row div img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+
+.offered-row2 i {
+  color: rgb(209, 180, 35);
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.offered-row2 {
+  border: 1px solid rgb(219, 207, 207);
+  padding: 18px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.offered-row2 button {
+  background-color: #0D3D6E;
+  color: white;
+  padding: 10px 13px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.view-btn {
+  margin: 0 0 0 50%;
+  transform: translateX(-50%);
+  background-color: #FFBC06;
+  padding: 15px 35px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 7px;
+  margin-bottom: 70px;
+
+}
+
+/* *******************OFFERED COURSES END********************** */
+
+/* *******************About Us Start********************** */
+.aboutus {
+  width: 100%;
+  position: relative;
+  height: 600px;
+}
+
+.about-left {
+  position: absolute;
+  width: 52%;
+  padding: 60px;
+  border-bottom-right-radius: 250px;
+  border-top-right-radius: 250px;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid gray;
+
+}
+
+.about {
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.about-colorsing {
+  height: 3px;
+  width: 25px;
+  background-color: #FFBC06;
+  position: absolute;
+  left: -35px;
+  top: 40%;
+}
+
+.about-btn {
+  background-color: #FFBC06;
+  padding: 20px 35px 20px 30px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.aboutus h4 {
+  margin-bottom: 20px;
+}
+
+.aboutus .about-text {
+  font-size: 15px;
+  color: #676363;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.about-right {
+  width: 45%;
+  position: absolute;
+  right: 0;
+  object-fit: cover;
+}
+
+.about-right img {
+  width: 100%;
+  height: 100%;
+  margin-top: 33px;
+  position: relative;
+}
+
+.about-shadow {
+  position: absolute;
+  top: 8%;
+  left: 0;
+  width: 100%;
+  height: 91%;
+  background-color: rgba(8, 19, 52, 0.4)
+}
+
+/* *************About Us End************* */
+
+/* ***********keybord part start***********  */
+
+.keybord {
+  background-image: linear-gradient(rgba(19, 41, 65, 0.8), rgba(11, 25, 40, .8)), url(image/keybord-img.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+/* ***********Keybord part End***********  */
+
+
+/* *************HAPPY STUDENTS Start **************/
+
+.happy-left {
+  width: 50%;
+}
+
+.happy-left p {
+  text-align: justify;
+  margin-right: 10px;
+  color: #676363;
+
+}
+
+.happy h1 {
+  color: #292525;
+  margin-top: 15px;
+}
+
+.quotes {
+  font-size: 100px;
+  color: #bfbfbf;
+}
+
+.happystudent-flex {
+  margin-top: 20px;
+}
+
+.icon-flex-right i {
+  font-size: 19px;
+  padding: 6px 9px;
+  border: 1px solid rgb(204, 199, 199);
+  box-shadow: 0 0 10px rgb(204, 199, 199);
+  margin-right: 10px;
+}
+
+.happy-text {
+  width: 70%;
+}
+
+.happy-text1 {
+  width: 20%;
+}
+
+.happy-text2 {
+  width: 75%;
+  margin-top: 10px;
+}
+
+.happy-left img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-top: 35px;
+  margin-right: 50px;
+}
+
+.happy-left h4 {
+  color: #0a56a1;
+  margin-top: 10px;
+}
+
+.happy-right {
+  width: 65%;
+  position: relative;
+}
+
+.happy-right img {
+  width: 87%;
+  margin-left: 50px;
+}
+
+.happy2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 30px;
+}
+
+/* *************HAPPY STUDENTS End**************/
+
+/* READ OUR DIFFERENCE SECTION START */
+
+.read-bg {
+  background-color: #F7F7F7;
+}
+
+.read .line {
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  margin-right: 10px;
+}
+
+.read-head {
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.read h1 {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.read-img {
+  margin-top: 50px;
+}
+
+.read-1 {
+  position: relative;
+  margin: 15px;
+  width: calc(33% - 30px);
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.8);
+  padding: 20px 0;
+}
+
+.read-1 img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  transform: translateX(-50%);
+}
+
+.read-1 h3 {
+  margin-top: 160px;
+  text-align: center;
+}
+
+.read-1 p {
+  text-align: center;
+  color: #888888;
+  margin-top: 15px;
+  padding: 0px 30px 40px 30px;
+}
+
+.read1 img {
+  background-color:#4382FF;
+}
+/* **************READ OUR DIFFERENCE SECTION END************** */
+
+/***************STUDENT PLACEMENT  START************** */
+.student-place-p {
+  text-align: center;
+  position: relative;
+}
+
+.student-place-div {
+  height: 4px;
+  width: 30px;
+  background-color: #FFBC06;
+  position: absolute;
+  right: 57.5%;
+  top: 40%;
+}
+
+.student-place h1 {
+  text-align: center;
+  color: #4c4a4a;
+  margin-top: 20px;
+  letter-spacing: 4px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+
+.req {
+  width: 16.66%;
+  border: 1px solid rgb(160, 149, 149);
+  margin: 15px;
+  padding: 5px;
+}
+
+.req img {
+  width: 100%;
+  height: 70px;
+  object-fit: cover;
+}
+
+.ancore a {
+  padding: 3px;
+  margin: 2px;
+  border: 1px solid rgb(174, 172, 172);
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.ancore {
+  display: flex;
+}
+
+.student-place h2 {
+  margin: 20px 0;
+}
+
+.student-place h3 {
+  margin: 20px 0;
+
+}
+
+.slider2 .item {
+  border: 1px solid rgb(109, 109, 109);
+  margin: 40px 0;
+}
+
+/* **********STUDENT PLACEMENT SECTION END************* */
+
+/* ***********FOOTER START************ */
+.footer {
+  background-color: #003366;
+}
+.footer2 {
+  display: flex;
+  color: white;
+}
+.footer_start {
+  width: 30%;
+}
+.footer_start img {
+  width: 70%;
+}
+.footer_start p {
+  color: white;
+  text-align: justify;
+  margin: 20px 10px 20px 0;
+}
+.footer_start h3 {
+  color: #EFBC06;
+}
+.footer_flex {
+  display: flex;
+  color: white;
+}
+.footer_icon {
+  background-color: #1A4876;
+  padding: 5px;
+  margin-top: 20px;
+  margin-right: 5px;
+  border-radius: 7px;
+
+}
+.footer_center {
+  width: 30%;
+  margin-left: 40px;
+}
+
+.footer_end h4 {
+  color: #EAA800;
+  margin: 20px 0 10px 0;
+}
+
+.footer_end p {
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-center {
+  margin-left: 30px;
+}
+
+.footer_center ul li {
+  list-style: none;
+  margin: 20px 20px 9px 0px;
+
+}
+
+.footer_center ul li i {
+  margin-right: 10px;
+}
+
+.footer_end ul li {
+  list-style: none;
+  margin: 20px 20px 9px 10px;
+
+}
+
+.footer_end ul li i {
+  margin-right: 10px;
+}
+
+.footer_end {
+  width: 40%;
+}
+
+.lastsec {
+  background-color: #072044;
+  color: white;
+  padding: 40px 0;
+}
+
+/* ***************FOOTER END******************/
